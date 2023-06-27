@@ -7,8 +7,8 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "ChatGPT-Midjourney",
-  description: "Your personal ChatGPT+Midjourney Chat Bot.",
+  title: "yongyu_ChatGPT+Midjourney",
+  description: "Yong Yu's chatbot",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -19,7 +19,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT-Midjourney",
+    title: "yongyu_ChatGPT+Midjourney",
     statusBarStyle: "default",
   },
 };
