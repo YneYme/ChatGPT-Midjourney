@@ -1035,7 +1035,7 @@ export function Chat() {
                 {useImages.length > 0 && (
                     <div className={styles["chat-select-images"]}>
                         {useImages.map((img: any, i) => (
-                            <img
+                            <Image
                                 src={img.base64}
                                 key={i}
                                 onClick={() => {
